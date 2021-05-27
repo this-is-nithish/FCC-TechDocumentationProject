@@ -1,0 +1,313 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    
+}
+
+
+#navbar{
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;
+    overflow-y: scroll;
+    position: fixed;
+    float: left;
+    text-align: center;
+    padding-top: 2%;
+    
+    
+    
+    
+}
+.nav-link{
+    background-color: rgb(29, 39, 33);
+    position: relative;
+    top: 8%;
+    min-height: 5%;
+    text-align: center;
+    padding-top: 2.5%;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 15%;
+    
+    
+    
+}
+#main-doc{
+    background-color: rgb(0, 0, 0);
+    min-height:100vh;
+    margin-left: 25vw;
+    width: 71.1269vw; 
+    padding-left: 1.7%;
+    padding-right: 1%; 
+    margin-bottom: 2%;
+    padding-top: 2%;
+}
+header{
+    font-size:x-large;
+    font-weight: bolder;
+    color: rgb(79, 204, 204);
+}
+footer{
+    margin-left: 25vw;
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    padding-left: 1.7%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+ul{
+    padding-left: 4%;
+}
+
+
+@media(max-width: 700px)
+{
+
+    #main_header{
+        padding: 10px;
+    }
+    #navbar{
+        height:unset;
+        background-color: rgb(0, 0, 0);
+        width:unset;
+        display:unset;
+        flex-direction:unset;
+        align-content:unset;
+        overflow-y:unset;
+        position:unset;
+        float:unset;
+        text-align:unset;
+        padding-top:unset;
+        text-align: center;
+        min-height:15vh;
+        position: fixed;
+        z-index: 10; 
+        width: 100vw;
+        
+        
+    }
+    .nav-link{
+        background-color: rgb(29, 39, 33);
+        position:unset;
+        bottom:unset;
+        min-height:unset;
+        text-align:unset;
+        padding-top:unset;
+        font-size:unset;
+        font-weight:unset;
+        margin-bottom:unset;
+        display:flow-root;
+        
+        
+        
+    }
+    .anchor{
+        display: block;
+        height: 200px; /*same height as header*/
+        margin-top: -100px; /*same height as header*/
+        visibility: hidden;
+      }
+
+    #main-doc{
+        background-color: rgb(0, 0, 0);
+        min-height:unset;
+        margin-left:unset;
+        width:unset;
+        padding-left:unset;
+        padding-right:unset;
+        margin-bottom:unset;
+        padding-top:unset;
+        position:relative;
+        top:32vh;
+        padding: 10px;
+        
+    }
+    header{
+        font-size:unset;
+        font-weight:unset;
+        color: rgb(79, 204, 204);
+    }
+    footer{
+        margin-left:unset;
+        background-color: rgb(0, 0, 0);
+        text-align:unset;
+        padding-left:unset;
+        padding-right:unset;
+        padding-bottom:unset;
+        padding-top:unset;
+    }
+    ul{
+        padding-left:unset;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BACK TO ORGINAL CODE
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(135, 199, 62);
+    
+}
+
+
+#navbar{
+    height: 100vh;
+    background-color: rgb(53, 105, 105);
+    max-width: 25%;
+    overflow:scroll;
+    overflow-x: hidden;
+    position: fixed;
+    float: left;
+    text-align: center;
+    
+    
+    
+}
+.nav-link{
+    background-color: burlywood;
+    position: relative;
+    bottom: 10%;
+    min-height: 5%;
+    text-align: center;
+    padding-top: 2.5%;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+#mi-doc{
+    background-color: rgb(255, 255, 255);
+    min-height:100vh;
+    margin-left: 25%;
+    width: 72.3%; 
+    padding-left: 1.7%;
+    padding-right: 1%; 
+    margin-bottom: 2%;
+}
+heder{
+    font-size:x-large;
+    font-weight: bolder;
+}
+fooer{
+    margin-left: 25%;
+    background-color: rgb(231, 231, 0);
+    text-align: left;
+    margin-bottom: 3%;
+}
+l{
+    padding-left: 4%;
+}
+
+
+@media(max-width: 700px)
+{
+    ody{
+        padding: 0;
+        
+        
+        
+    }
+    #navbar{
+        height: 100%;
+        background-color: rgb(53, 105, 105);
+        max-width: 30%;
+        position: fixed;
+        float: left;
+        
+        
+        
+        
+        
+    }
+    .nav-link{
+        
+        
+        
+        
+        
+    }
+
+    #main-doc{
+        background-color: rgb(255, 255, 255);
+        padding: 3%;
+        contain: content;
+        margin-left: 30%;
+        font-size: 10px;
+        
+        
+        
+        
+        
+        
+       
+    }
+
+    fooer{
+        margin-left: 25%;
+        background-color: rgb(231, 231, 0);
+        text-align: left;
+        margin-bottom: 3%;
+    }
+}
+
+*/
