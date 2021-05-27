@@ -117,7 +117,7 @@ ul{
     }
     .anchor{
         display: block;
-        height: 30vh; /*same height as header*/
+        height: 40vh; /*same height as header*/
         margin-top: -130px; /*same height as header*/
         visibility: hidden;
       }
